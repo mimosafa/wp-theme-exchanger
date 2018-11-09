@@ -1,0 +1,18 @@
+{
+    "name": "mimosafa/wp-theme-exchanger",
+    "description": "Simple WordPress theme exchanger",
+    "type": "library",
+    "license": "GPL-2.0+",
+    "authors": [
+        {
+            "name": "Toshimichi Mimoto",
+            "email": "mimosafa@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "WP_Theme_Exchanger\\": "src/"
+        }
+    },
+    "require": {}
+}
