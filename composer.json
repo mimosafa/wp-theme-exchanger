@@ -14,5 +14,13 @@
             "WP_Theme_Exchanger\\": "src/"
         }
     },
-    "require": {}
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^6"
+    },
+    "scripts": {
+        "install-wp-tests": [
+            "bash bin/install-wp-tests.sh wordpress_tests root '' localhost latest"
+        ]
+    }
 }
