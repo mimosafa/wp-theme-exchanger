@@ -18,8 +18,8 @@ class Exchanger {
      *
      * @param string $theme Name of the theme after exchange
      */
-    public function __construct( string $theme ) {
-        $theme = wp_get_theme( $theme );
+    public function __construct( string $theme, $theme_root = null ) {
+        $theme = wp_get_theme( $theme, $theme_root );
         if ( $theme->exists() ) {
             $this->theme = $theme;
         }
