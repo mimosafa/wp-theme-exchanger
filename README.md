@@ -1,4 +1,4 @@
-# WP Theme Exchanger
+# WP Theme Exchanger [![Build Status](https://travis-ci.org/mimosafa/wp-theme-exchanger.svg?branch=master)](https://travis-ci.org/mimosafa/wp-theme-exchanger)
 
 Simple WordPress theme exchanger.
 
