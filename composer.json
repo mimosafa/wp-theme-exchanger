@@ -2,7 +2,7 @@
     "name": "mimosafa/wp-theme-exchanger",
     "description": "Simple WordPress theme exchanger",
     "type": "library",
-    "license": "GPL-2.0+",
+    "license": "GPL-2.0-or-later",
     "authors": [
         {
             "name": "Toshimichi Mimoto",
@@ -14,7 +14,9 @@
             "WP_Theme_Exchanger\\": "src/"
         }
     },
-    "require": {},
+    "require": {
+        "php": ">=5.6"
+    },
     "require-dev": {
         "phpunit/phpunit": "^5.7",
         "doctrine/instantiator": "1.0.*",
