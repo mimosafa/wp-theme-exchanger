@@ -18,7 +18,7 @@ class Exchanger {
      *
      * @param string $theme Name of the theme after exchange
      */
-    public function __construct( string $theme, $theme_root = null ) {
+    public function __construct( $theme, $theme_root = null ) {
         $theme = wp_get_theme( $theme, $theme_root );
         if ( $theme->exists() ) {
             $this->theme = $theme;
@@ -53,7 +53,7 @@ class Exchanger {
      * @param string $stylesheet Current stylesheet
      * @return string
      */
-    public function stylesheet( string $stylesheet ): string {
+    public function stylesheet( $stylesheet ) {
         if ( isset( $this->theme ) ) {
             $stylesheet = $this->theme['Stylesheet'];
         }
@@ -68,7 +68,7 @@ class Exchanger {
      * @param string $template Current template
      * @return string
      */
-    public function template( string $template ): string {
+    public function template( $template ) {
         if ( isset( $this->theme ) ) {
             $template = $this->theme['Template'];
         }
